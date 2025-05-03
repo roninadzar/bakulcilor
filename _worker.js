@@ -5,10 +5,10 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "timeline.eu.org"; // Ganti dengan domain utama kalian
 const serviceName = "bakulcilor"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = "5098c69ba1957963a6465a1fe098d7a9f17c6"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "burnicehomenick235@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "1a9d0ae25505139b331828787ef47cb7"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "09d23fc986c7f00946ea66faa3ca50a4"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
